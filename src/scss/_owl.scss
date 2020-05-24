@@ -6,12 +6,17 @@
     height: 100px;
     border: 1px solid #f5f5f5!important;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: 50%!important;
 }
 
 .owl-prev {
     right: 0;
+    background-image: url(../images/icons/next.png)!important;
 }
 
 .owl-next {
     left: 0;
+    background-image: url(../images/icons/back.png)!important;
 }
