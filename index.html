@@ -22,7 +22,7 @@
         <div class="mb-5">
             <div class="row">
                 <div class="col-xl-8">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide overflow-hidden rounded" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -52,10 +52,10 @@
                     </div>
                 </div>
                 <div class="col-xl-4">
-                    <a href="#" class="d-block" style="margin-bottom: 15px;">
+                    <a href="#" class="d-block overflow-hidden rounded" style="margin-bottom: 15px;">
                         <img src="dist/images/1000024381.jpg" class="img-fluid" alt="">
                     </a>
-                    <a class="d-block" href="#">
+                    <a class="d-block overflow-hidden rounded" href="#">
                         <img src="dist/images/1000024402.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
@@ -186,7 +186,10 @@
         <section class="mb-5">
             <div class="row">
                 <div class="col-xl-3">
-                    <div>Hi</div>
+                    <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="fs-20 mb-3">باکس توضیحات پک‌ها</h2>
+                        <h3 class="fs-16 text-center">پک‌های ویژه کتاب انتشارات جمال با ارسال رایگان و <span class="text-danger">تخفیف ۳۰ درصدی</span> برای کودکان ایران زمین</h3>
+                    </div>
                 </div>
                 <div class="col-xl-9">
                     <div class="owl-two owl-carousel owl-theme">
@@ -319,6 +322,7 @@
             nav: true,
             rtl: true,
             dots: false,
+            navText: ["<span><</span>","<span>></span>"],
             responsive: {
                 0: {
                     items: 1

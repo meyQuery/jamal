@@ -1,4 +1,17 @@
 .owl-prev,
 .owl-next {
-    font-size: 1rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    width: 50px;
+    height: 100px;
+    border: 1px solid #f5f5f5!important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.owl-prev {
+    right: 0;
+}
+
+.owl-next {
+    left: 0;
 }
