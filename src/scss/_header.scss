@@ -3,5 +3,11 @@
 }
 
 .logo-img {
-    height: 51px;
+    height: 32px;
+}
+
+@media(min-width: 768px) {
+    .logo-img {
+        height: 50px;
+    }
 }
