@@ -23,8 +23,9 @@
 }
 
 .card-body h5 {
-    max-width: 180px;
+    max-width: 500px;
     white-space: nowrap;
     overflow: hidden!important;
     text-overflow: ellipsis;
+    color: black;
 }
