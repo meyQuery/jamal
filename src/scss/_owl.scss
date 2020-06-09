@@ -10,7 +10,7 @@
     background-position: center center!important;
     background-size: 50%!important;
     border-radius: 50%!important;
-    background-color: #ff7b05!important;
+    background-color: rgba(3, 169, 244, 0.75)!important;
 
     &:focus {
         outline: none!important;
@@ -33,6 +33,7 @@
             height: 175px;
             width: auto;
             max-width: 100%;
+            margin: auto;
         }
     }
 }
