@@ -26,3 +26,13 @@
     left: -15px;
     background-image: url(../images/icons/back.png)!important;
 }
+
+.owl-carousel {
+    .owl-item {
+        img {
+            height: 175px;
+            width: auto;
+            max-width: 100%;
+        }
+    }
+}
