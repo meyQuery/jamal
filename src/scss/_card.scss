@@ -33,3 +33,18 @@
     text-overflow: ellipsis;
     color: black;
 }
+
+.card-body {
+    padding: .75rem;
+}
+
+.card-pill {
+    background-color: #eee;
+}
+
+.card-pill-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}

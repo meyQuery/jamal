@@ -29,11 +29,19 @@
 
 .owl-carousel {
     .owl-item {
-        img {
-            height: 175px;
+        .card-img-top {
+            height: 200px;
             width: auto;
             max-width: 100%;
             margin: auto;
         }
     }
+}
+
+.add-to-cart {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../images/icons/trolley.png);
+    background-repeat: no-repeat;
 }
